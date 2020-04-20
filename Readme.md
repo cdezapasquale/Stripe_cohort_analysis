@@ -18,14 +18,6 @@ conda env create -f environment.yml
 conda activate dev
 ```
 
-## Installing libraries
-
-Install any libraries you need with
-
-```
-conda install <library>
-```
-
 
 ## Usage
 
@@ -37,7 +29,5 @@ jupyter lab
 
 And start working.
 
-## Sharing
 
-Push to Github and import into Kyso.
 
