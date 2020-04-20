@@ -1,4 +1,4 @@
-# This is the notebook template for analizying your Stripe data 😉
+# This is the notebook template for analyzing your Stripe data 😉
 
 This is a baseline project that you can use to get started with Stripe data
 
