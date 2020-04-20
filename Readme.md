@@ -1,13 +1,13 @@
-# This is the template for the Kyso templates 😉
+# This is the notebook template for analizying your Stripe data 😉
 
-This is a baseline project that you can use to get started writing a Kyso template.
+This is a baseline project that you can use to get started with Stripe data
 
 ## Installation
 
 Git clone this repository:
 
 ```
-git clone https://github.com/kyso-io/template
+git clone https://github.com/facundodeza/Stripe_cohort_analysis
 ```
 
 Download and install the [Anaconda Python distribution](https://www.anaconda.com/distribution/).
@@ -26,12 +26,6 @@ Install any libraries you need with
 conda install <library>
 ```
 
-Make sure to run the following command to save the installed libraries into the environment.yml file,
-this allows others to run the report easily
-
-```
-conda env export --no-builds > environment.yml
-```
 
 ## Usage
 
