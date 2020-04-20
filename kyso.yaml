@@ -1,6 +1,6 @@
 main: "notebook.ipynb"
 preview: "images/preview.png"
-title: "The Kyso template template"
-description: "The template for the Kyso templates 😉"
+title: "The Stripe template"
+description: "The Stripe template 😉"
 tags:
   - template
