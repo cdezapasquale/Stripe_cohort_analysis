@@ -1,6 +1,8 @@
 main: "notebook.ipynb"
 preview: "images/preview.png"
+
 title: "The Stripe template for cohort analysis"
 description: "Perform cohort analysis for your Stripe data😉"
+
 tags:
   - template

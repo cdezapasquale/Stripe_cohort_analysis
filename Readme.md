@@ -1,4 +1,4 @@
-# This is the notebook template for analizying your Stripe data 😉
+# This is the notebook template for analyzing your Stripe data 😉
 
 This is a baseline project that you can use to get started with Stripe data
 
@@ -18,14 +18,6 @@ conda env create -f environment.yml
 conda activate dev
 ```
 
-## Installing libraries
-
-Install any libraries you need with
-
-```
-conda install <library>
-```
-
 
 ## Usage
 
@@ -37,7 +29,5 @@ jupyter lab
 
 And start working.
 
-## Sharing
 
-Push to Github and import into Kyso.
 
