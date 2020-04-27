@@ -4,11 +4,10 @@ channels:
   - defaults
 dependencies:
   - _libgcc_mutex=0.1
-  - _openmp_mutex=4.5
   - asn1crypto=1.3.0
   - attrs=19.3.0
-  - autograd=1.3
   - backcall=0.1.0
+  - blas=1.0
   - bleach=3.1.3
   - ca-certificates=2020.1.1
   - certifi=2020.4.5.1
@@ -19,12 +18,10 @@ dependencies:
   - dbus=1.13.12
   - decorator=4.4.2
   - defusedxml=0.6.0
-  - dill=0.3.1.1
   - entrypoints=0.3
   - expat=2.2.6
   - fontconfig=2.13.0
   - freetype=2.9.1
-  - future=0.18.2
   - glib=2.63.1
   - gst-plugins-base=1.14.0
   - gstreamer=1.14.0
@@ -32,6 +29,7 @@ dependencies:
   - idna=2.9
   - importlib-metadata=1.5.0
   - importlib_metadata=1.5.0
+  - intel-openmp=2020.0
   - ipykernel=5.2.0
   - ipython=7.13.0
   - ipython_genutils=0.2.0
@@ -45,34 +43,33 @@ dependencies:
   - jupyterlab=2.0.1
   - jupyterlab_server=1.0.7
   - kiwisolver=1.0.1
-  - ld_impl_linux-64=2.34
-  - libblas=3.8.0
-  - libcblas=3.8.0
+  - ld_impl_linux-64=2.33.1
   - libcxx=9.0.1
   - libcxxabi=9.0.1
   - libffi=3.2.1
-  - libgcc-ng=9.2.0
+  - libgcc-ng=9.1.0
   - libgfortran-ng=7.3.0
-  - libgomp=9.2.0
-  - liblapack=3.8.0
-  - libopenblas=0.3.7
   - libpng=1.6.37
   - libsodium=1.0.17
-  - libstdcxx-ng=9.2.0
+  - libstdcxx-ng=9.1.0
   - libuuid=1.0.3
   - libxcb=1.13
   - libxml2=2.9.9
-  - lifetimes=0.11.1
   - markupsafe=1.1.1
   - matplotlib=3.1.3
   - matplotlib-base=3.1.3
   - mistune=0.8.4
+  - mkl=2020.0
+  - mkl-service=2.3.0
+  - mkl_fft=1.0.15
+  - mkl_random=1.1.0
   - nbconvert=5.6.1
   - nbformat=5.0.4
   - ncurses=6.1
   - notebook=6.0.3
   - numpy=1.18.1
-  - openssl=1.1.1f
+  - numpy-base=1.18.1
+  - openssl=1.1.1g
   - pandas=1.0.3
   - pandoc=2.9.2.1
   - pandocfilters=1.4.2
@@ -120,5 +117,8 @@ dependencies:
   - zeromq=4.3.2
   - zipp=3.1.0
   - zlib=1.2.11
+  - pip:
+    - dill==0.3.1.1
+    - lifetimes==0.10.1
 prefix: /home/facudeza/anaconda3/envs/dev
 
